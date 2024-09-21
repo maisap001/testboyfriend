@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #3399ff;
+}
+
+.btn-accept {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.btn-accept:hover {
+    background-color: #45a049;
+}
+
+.btn-reject:hover {
+    background-color: #e53935;
+}
+
+.response {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
